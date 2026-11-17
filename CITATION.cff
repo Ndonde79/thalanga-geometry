@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the paper and this repository."
+title: "thalanga-geometry: boundary placement and tonnage sensitivity of thin massive sulphide lenses at Thalanga"
+version: 1.1.0
+date-released: 2026-11-17
+license: BSD-3-Clause
+authors:
+  - family-names: Ndonde
+    given-names: Ramadhani Waziri
+    orcid: "https://orcid.org/0009-0007-0675-9295"
+    affiliation: "DeepFusion Geoscience Limited, Dar es Salaam, Tanzania"
+references:
+  - type: software
+    title: "DeepRBF"
+    version: 3.5.0
+    doi: 10.5281/zenodo.24268959
+    authors:
+      - family-names: Ndonde
+        given-names: Ramadhani Waziri
+  - type: dataset
+    title: "NEQ Deposit Atlas - Thalanga (DS100103)"
+    authors:
+      - name: "Geological Survey of Queensland"
+    year: 2024

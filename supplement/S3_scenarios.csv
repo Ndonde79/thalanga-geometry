@@ -1,0 +1,50 @@
+set,construction,variant,threshold_or_level,ranges,rotation,data
+indicator sensitivity (MS and OH; 11 fits x 3 thresholds = 33),indicator,reference,0.3 / 0.5 / 0.7,"80 x 80 x 10 m (s, z, n)",-,all holes
+indicator sensitivity (MS and OH; 11 fits x 3 thresholds = 33),indicator,ranges_x0.75,0.3 / 0.5 / 0.7,60 x 60 x 7.5 m,-,all holes
+indicator sensitivity (MS and OH; 11 fits x 3 thresholds = 33),indicator,ranges_x1.25,0.3 / 0.5 / 0.7,100 x 100 x 12.5 m,-,all holes
+indicator sensitivity (MS and OH; 11 fits x 3 thresholds = 33),indicator,across_7.5m,0.3 / 0.5 / 0.7,80 x 80 x 7.5 m,-,all holes
+indicator sensitivity (MS and OH; 11 fits x 3 thresholds = 33),indicator,across_12.5m,0.3 / 0.5 / 0.7,80 x 80 x 12.5 m,-,all holes
+indicator sensitivity (MS and OH; 11 fits x 3 thresholds = 33),indicator,elong_strike,0.3 / 0.5 / 0.7,113 x 57 x 10 m,long axis along s,all holes
+indicator sensitivity (MS and OH; 11 fits x 3 thresholds = 33),indicator,elong_dip,0.3 / 0.5 / 0.7,57 x 113 x 10 m,long axis along z,all holes
+indicator sensitivity (MS and OH; 11 fits x 3 thresholds = 33),indicator,elong_plunge+45,0.3 / 0.5 / 0.7,113 x 57 x 10 m,long axis +45 deg in s-z,all holes
+indicator sensitivity (MS and OH; 11 fits x 3 thresholds = 33),indicator,elong_plunge-45,0.3 / 0.5 / 0.7,113 x 57 x 10 m,long axis -45 deg in s-z,all holes
+indicator sensitivity (MS and OH; 11 fits x 3 thresholds = 33),indicator,dip_+10,0.3 / 0.5 / 0.7,"80 x 80 x 10 m (s, z, n)",+10 deg in z-n,all holes
+indicator sensitivity (MS and OH; 11 fits x 3 thresholds = 33),indicator,dip_-10,0.3 / 0.5 / 0.7,"80 x 80 x 10 m (s, z, n)",-10 deg in z-n,all holes
+grade-tonnage geometries,indicator,threshold_0.3,0.3,"80 x 80 x 10 m (s, z, n)",-,all
+grade-tonnage geometries,indicator,threshold_0.5,0.5 (reference),"80 x 80 x 10 m (s, z, n)",-,all
+grade-tonnage geometries,indicator,threshold_0.7,0.7,"80 x 80 x 10 m (s, z, n)",-,all
+grade-tonnage geometries,indicator,ranges_x0.75,0.5,60 x 60 x 7.5 m,-,all
+grade-tonnage geometries,indicator,ranges_x1.25,0.5,100 x 100 x 12.5 m,-,all
+grade-tonnage geometries,indicator,without_frozen,0.5,"80 x 80 x 10 m (s, z, n)",-,original withheld set removed
+grade-tonnage geometries,signed,reference,field >= 20 (contact value),"80 x 80 x 10 m (s, z, n)",-,all
+grade-tonnage geometries,signed,contacts_out_1m,field >= 19,"80 x 80 x 10 m (s, z, n)",-,all
+grade-tonnage geometries,signed,contacts_in_1m,field >= 21,"80 x 80 x 10 m (s, z, n)",-,all
+grade-tonnage geometries,signed,ranges_x0.75,20,60 x 60 x 7.5 m,-,all
+grade-tonnage geometries,signed,ranges_x1.25,20,100 x 100 x 12.5 m,-,all
+grade-tonnage geometries,signed,across_7.5m,20,80 x 80 x 7.5 m,-,all
+grade-tonnage geometries,signed,across_12.5m,20,80 x 80 x 12.5 m,-,all
+grade-tonnage geometries,signed,elong_strike,20,113 x 57 x 10 m,along s,all
+grade-tonnage geometries,signed,elong_dip,20,57 x 113 x 10 m,along z,all
+grade-tonnage geometries,signed,elong_plunge+45,20,113 x 57 x 10 m,+45 deg,all
+grade-tonnage geometries,signed,elong_plunge-45,20,113 x 57 x 10 m,-45 deg,all
+grade-tonnage geometries,signed,dip_+10,20,"80 x 80 x 10 m (s, z, n)",+10 deg in z-n,all
+grade-tonnage geometries,signed,dip_-10,20,"80 x 80 x 10 m (s, z, n)",-10 deg in z-n,all
+grade-tonnage geometries,signed,without_frozen,20,"80 x 80 x 10 m (s, z, n)",-,original withheld set removed
+grade-tonnage geometries,surfaces,reference,w >= 1 m,"80 x 80 m (s, z)",-,all
+grade-tonnage geometries,surfaces,tmin_0.5m,w >= 0.5 m,80 x 80 m,-,all
+grade-tonnage geometries,surfaces,tmin_2m,w >= 2 m,80 x 80 m,-,all
+grade-tonnage geometries,surfaces,ranges_x0.75,w >= 1 m,60 x 60 m,-,all
+grade-tonnage geometries,surfaces,ranges_x1.25,w >= 1 m,100 x 100 m,-,all
+grade-tonnage geometries,surfaces,elong_strike,w >= 1 m,113 x 57 m,along s,all
+grade-tonnage geometries,surfaces,elong_dip,w >= 1 m,57 x 113 m,along z,all
+grade-tonnage geometries,surfaces,elong_plunge+45,w >= 1 m,113 x 57 m,+45 deg,all
+grade-tonnage geometries,surfaces,elong_plunge-45,w >= 1 m,113 x 57 m,-45 deg,all
+grade-tonnage geometries,surfaces,contacts_out_1m,w + 2 m per intercept,80 x 80 m,-,all
+grade-tonnage geometries,surfaces,contacts_in_1m,w - 2 m per intercept,80 x 80 m,-,all
+grade-tonnage geometries,surfaces,without_frozen,w >= 1 m,80 x 80 m,-,original withheld set removed
+grade-tonnage geometries,lenses,reference,w >= 1 m,"80 x 80 m (s, z)",-,all
+grade-tonnage geometries,lenses,contacts_out_1m,w + 2 m per intercept,80 x 80 m,-,all
+grade-tonnage geometries,lenses,contacts_in_1m,w - 2 m per intercept,80 x 80 m,-,all
+grade-tonnage geometries,lenses,ranges_x0.75,w >= 1 m,60 x 60 m,-,all
+grade-tonnage geometries,lenses,ranges_x1.25,w >= 1 m,100 x 100 m,-,all
+grade-tonnage geometries,lenses,without_frozen,w >= 1 m,80 x 80 m,-,original withheld set removed
